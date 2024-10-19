@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #0033a0;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#hero {
+  background: url('images/Time.webp') no-repeat center center/cover;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 50px 0;
+  font-weight: 600;
+  color: #0033a0;
+}
+
+#about, #timeline, #players, #achievements {
+  padding: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.center-image {
+  max-width: 300px;
+  margin: 0 auto 20px;
+  display: block;
+  border-radius: 10px;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.players-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.player-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.player-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #0033a0;
+}
+
+.achievements-list li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #0033a0;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+      font-size: 2.5rem;
+  }
+
+  #hero p {
+      font-size: 1.2rem;
+  }
+
+  .players-grid {
+      grid-template-columns: 1fr;
+  }
+}
