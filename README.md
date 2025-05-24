@@ -1,5 +1,4 @@
-# Fortaleza Esporte Clube - Página Institucional
-
+# Fortaleza Esporte Clube - Projeto
  Projeto web que apresenta uma página institucional do Fortaleza Esporte Clube, com informações sobre sua história, jogadores icônicos, técnicos importantes e conquistas.
 
  ## Tecnologias usadas
