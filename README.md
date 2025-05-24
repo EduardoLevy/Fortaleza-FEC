@@ -9,15 +9,6 @@
  - JavaScript
  - Fonte Google Fonts: Poppins
 
- ## Estrutura do projeto
-
-Fortaleza-FEC/
-├── index.html        # Página principal
-├── styles.css        # Estilos CSS
-├── js/
-│   └── script.js     
-└── images/           # Imagens usadas no site
-
  ## Como usar
 
  1. Clone ou faça o download do repositório:
