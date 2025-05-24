@@ -11,12 +11,12 @@
 
  ## Estrutura do projeto
 
- Fortaleza-FEC/
- ├── index.html       # Página principal
- ├── styles.css       # Estilos CSS
- ├── js/
- │   └── script.js    # Script para scroll suave na navegação
- └── images/          # Imagens usadas no site
+Fortaleza-FEC/
+├── index.html        # Página principal
+├── styles.css        # Estilos CSS
+├── js/
+│   └── script.js     
+└── images/           # Imagens usadas no site
 
  ## Como usar
 
