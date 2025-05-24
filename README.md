@@ -5,8 +5,8 @@
  ## Tecnologias usadas
 
  - HTML5
- - CSS3 (https://github.com/EduardoLevy/Fortaleza-FEC/blob/main/styles.css)
- - JavaScript (scroll suave) (https://github.com/EduardoLevy/Fortaleza-FEC/blob/main/js/script.js)
+ - CSS3 
+ - JavaScript
  - Fonte Google Fonts: Poppins
 
  ## Estrutura do projeto
