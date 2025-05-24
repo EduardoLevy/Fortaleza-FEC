@@ -22,7 +22,6 @@
  - Navegação por âncoras com scroll suave.
  - Seções sobre o clube: História, Jogadores Icônicos, Técnicos e Conquistas.
  - Layout responsivo e simples.
- - Imagens ilustrativas e conteúdo textual.
 
  ## Autor
 
